@@ -10,7 +10,7 @@ frontend:
       commands: npm run build
   artifacts:
     # IMPORTANT - Please verify your build output directory
-    baseDirectory: /my-app/build
+    baseDirectory: my-app/build
     files:
       - '**/*'
   cache:
