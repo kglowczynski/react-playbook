@@ -1,18 +1,13 @@
 version: 1
+env:
+  variables:
+    key: value
 frontend:
   phases:
-    # IMPORTANT - Please verify your build commands
     preBuild:
-    commands:
+      commands:
         - cd my-app
-        - npm install 
+        - npm ci
     build:
-      commands: npm run build
-  artifacts:
-    # IMPORTANT - Please verify your build output directory
-    baseDirectory: dist
-    files:
-      - '**/*'
-  cache:
-      paths:
-        - node_modules/**/*
+      commands:
+        - npm run build
