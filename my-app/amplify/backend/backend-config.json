@@ -5,5 +5,23 @@
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     }
+  },
+  "parameters": {
+    "AMPLIFY_function_getContentFunction_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "getContentFunction"
+        }
+      ]
+    },
+    "AMPLIFY_function_getContentFunction_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "getContentFunction"
+        }
+      ]
+    }
   }
 }

@@ -13,7 +13,10 @@
     },
     "categories": {
       "function": {
-        "getContentFunction": {}
+        "getContentFunction": {
+          "deploymentBucketName": "amplify-myapp-dev-15005-deployment",
+          "s3Key": "amplify-builds/getContentFunction-564f654a5a765069706d-build.zip"
+        }
       }
     }
   }
